@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box; 
+    margin:0; 
+    padding: 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1366px; 
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 400px;
+    height: 250px;
+}
+
+.articles article {
+    width: 30%;
+    margin-bottom: 16px
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+
+.articles article h3 {
+    margin-top: 8px; 
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article p 
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > header {
+    background-color: darkslateblue; 
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+#sports h2 {
+    color: green;
+}
+
+#economy h2 {
+    color: rgba(255, 217, 0, 0.803);
+}
+
+#manga h2 {
+    color: darkblue;
+}
+
+#comics h2 {
+    color: saddlebrown;
+}
+
+time {
+    color: #ccc;
+}
+
+.articles article a {
+    background-color: blue; 
+    color: #fff; 
+    padding: 8px; 
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#economy {
+    background-color: rgba(197, 187, 75, 0.814);
+}
+
+#manga {
+    background-color: lightblue;
+}
+
+#comics {
+    background-color: rgba(209, 111, 75, 0.1);
+}
+
+#sports .articles article a {
+    background-color: #009432;
+}
+
+#economy .articles article a {
+    background-color: #749400ec;
+}
+
+#manga .articles article a {
+    background-color: #005194;
+}
+
+#comics .articles article a {
+    background-color: #943400;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
